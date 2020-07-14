@@ -3,7 +3,6 @@ import * as types from '../constants/ActionTypes'
 import {actionStart, actionFailed, actionSuccess} from './utils/template'
 
 export const register = (email, password) => {
-  debugger;
   return function(dispatch) {
     dispatch(actionStart(types.REGISTER))
     const promise = firebase.auth().createUserWithEmailAndPassword(email, password)

@@ -4,7 +4,6 @@ import { actionStart, actionFailed, actionSuccess } from './utils/template'
 import { fetchList } from './timeEntries'
 
 export const changeText = (uid, text) => {
-  debugger;
   return function (dispatch) {
     dispatch(actionStart(types.TIME_ENTRY_INPUT__CHANGE_TEXT, {
       payload: {
@@ -55,7 +54,6 @@ export const stop = (uid, text, date, tagId) => {
     dispatch(actionStart(types.TIME_ENTRY_INPUT__STOP))
 
     //create complete time entry
-    debugger;
     const newEntryRef = firebase.database().ref('timeEntries/' + uid).push()
     const now = new Date()
     const newEntryPromise = newEntryRef.set({
