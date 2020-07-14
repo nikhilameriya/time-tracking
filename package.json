@@ -5,26 +5,6 @@
   "engines": {
     "node": "10.15.3"
   },
-  "devDependencies": {
-    "@kadira/storybook": "^2.21.0",
-    "@kadira/storybook-addons": "^1.6.1",
-    "@kadira/storybook-channel": "^1.1.0",
-    "@kadira/storybook-deployer": "^1.2.0",
-    "babel-core": "^6.23.1",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react-app": "^2.1.0",
-    "enzyme": "^2.7.0",
-    "gh-pages": "^0.12.0",
-    "moment-timezone": "^0.5.11",
-    "node-sass": "^4.5.0",
-    "npm-run-all": "^4.0.1",
-    "react-addons-test-utils": "^15.4.2",
-    "react-scripts": "0.8.5",
-    "redux-devtools-extension": "^2.13.0",
-    "redux-mock-store": "^1.2.2",
-    "storyshots": "^3.2.2",
-    "timezoned-date": "^2.0.19"
-  },
   "dependencies": {
     "chart.js": "^2.5.0",
     "firebase": "^3.6.8",
@@ -44,7 +24,25 @@
     "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "reselect": "^2.5.4"
+    "reselect": "^2.5.4",
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addons": "^1.6.1",
+    "@kadira/storybook-channel": "^1.1.0",
+    "@kadira/storybook-deployer": "^1.2.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react-app": "^2.1.0",
+    "enzyme": "^2.7.0",
+    "gh-pages": "^0.12.0",
+    "moment-timezone": "^0.5.11",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.1",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "0.8.5",
+    "redux-devtools-extension": "^2.13.0",
+    "redux-mock-store": "^1.2.2",
+    "storyshots": "^3.2.2",
+    "timezoned-date": "^2.0.19"
   },
   "scripts": {
     "start-js": "react-scripts start",
